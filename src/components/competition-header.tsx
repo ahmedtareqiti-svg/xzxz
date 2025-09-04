@@ -1,4 +1,5 @@
 import { BookOpen, Building2, Star } from "lucide-react"
+import { DeveloperContact } from "@/components/developer-contact"
 
 export function CompetitionHeader() {
   return (
@@ -43,19 +44,7 @@ export function CompetitionHeader() {
         </p>
         
         {/* Contact info */}
-        <div className="mt-4">
-          <p className="text-lg text-muted-foreground font-medium">
-            للمساعدة أو الاستفسار: 
-            <a 
-              href="https://wa.me/201559181558" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-green-600 hover:text-green-700 font-semibold mr-2"
-            >
-              واتساب +201559181558
-            </a>
-          </p>
-        </div>
+        <DeveloperContact />
         
         {/* Success criteria */}
         <div className="mt-6 p-4 rounded-xl bg-gradient-to-r from-green-50 to-blue-50 border border-green-200 max-w-lg mx-auto">
